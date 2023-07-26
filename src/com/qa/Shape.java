@@ -46,12 +46,10 @@ public abstract class Shape {
                                            this.colour = colour;
                                        }
 
-                                         public void setColour(String colour) {
-                                             this.colour = colour;
-                                         }
+
 
                                               //abstract methods - implemented by the sub-classes
          public abstract double getArea();
               public abstract Point getCentrePoint();
          }
-}
+
